@@ -14,6 +14,7 @@
 		FDD59D2829498E74004BFF84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD59D2729498E74004BFF84 /* Assets.xcassets */; };
 		FDD59D2B29498E74004BFF84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD59D2929498E74004BFF84 /* LaunchScreen.storyboard */; };
 		FDD59D3629498ECA004BFF84 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD59D3529498ECA004BFF84 /* QuestionModel.swift */; };
+		FDD59D3829499032004BFF84 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD59D3729499032004BFF84 /* QuestionViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FDD59D2A29498E74004BFF84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDD59D2C29498E74004BFF84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDD59D3529498ECA004BFF84 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		FDD59D3729499032004BFF84 /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,6 @@
 				FDD59D3229498E90004BFF84 /* Model */,
 				FDD59D1E29498E6E004BFF84 /* AppDelegate.swift */,
 				FDD59D2029498E6E004BFF84 /* SceneDelegate.swift */,
-				FDD59D2229498E6E004BFF84 /* ViewController.swift */,
 				FDD59D2429498E6F004BFF84 /* Main.storyboard */,
 				FDD59D2729498E74004BFF84 /* Assets.xcassets */,
 				FDD59D2929498E74004BFF84 /* LaunchScreen.storyboard */,
@@ -83,6 +84,7 @@
 		FDD59D3329498E97004BFF84 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				FDD59D3729499032004BFF84 /* QuestionViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -90,6 +92,7 @@
 		FDD59D3429498EA7004BFF84 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FDD59D2229498E6E004BFF84 /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			files = (
 				FDD59D2329498E6E004BFF84 /* ViewController.swift in Sources */,
 				FDD59D1F29498E6E004BFF84 /* AppDelegate.swift in Sources */,
+				FDD59D3829499032004BFF84 /* QuestionViewModel.swift in Sources */,
 				FDD59D2129498E6E004BFF84 /* SceneDelegate.swift in Sources */,
 				FDD59D3629498ECA004BFF84 /* QuestionModel.swift in Sources */,
 			);
